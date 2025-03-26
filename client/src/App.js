@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ClientForm from "./ClientForm";
-import ClientTable from "./ClientTable";
+import ClientForm from "./components/ClientForm";
+import ClientTable from "./components/ClientTable";
 
 function App() {
   const [vehicles, setVehicles] = useState([]);
